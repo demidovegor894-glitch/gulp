@@ -1,5 +1,42 @@
-.title_heroblok {
+.container_heroblok{
     display: flex;
     flex-direction: column;
+    background-image: url(../images/vector.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 112px;
+    padding-bottom: 20%;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
+
+.digital_hb{
+    color: var(--main-color);
+}
+
+.text_heroblok{
+    background-color: rgba(36, 36, 36, 0.2);
+    backdrop-filter: blur(12px);
+    border: var(--border);
+    border-radius: 12px;
+    padding: 24px 40px;
+    color: var(--grey60);
+    margin-top: 40px;
+    font-size: 22px;
+
+    &_p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+}
+
+.hb_btn{
+    margin-top: 50px;
+    display: flex;
+    gap: 13px;
+}
+

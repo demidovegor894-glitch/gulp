@@ -11,8 +11,20 @@
   --border-radius-default: 20px;
 
   /**  Основные цвета */
-  --main-color: #e3e3e3;
+  --grey10: rgba(26 26 26);
+  --grey15: rgba(38 38 38);
+  --grey20: rgba(51 51 51);
+  --grey30: rgba(76 76 77);
+  --grey35: rgba(89 89 90);
+  --grey40: rgba(101 101 103);
+  --grey60: rgba(152 152 154);
+  --grey90: rgba(230 230 230);
+  --main-color: rgba(255 255 255);
+
 
   /**  Шрифты */
   --font-family-title: "Open Sans";
+
+  /**  Радиус */
+  --border: 1px solid var(--grey15)
 }

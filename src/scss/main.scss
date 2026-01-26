@@ -11,12 +11,25 @@
 
 // ==== 4. Components ====
 @use 'components/button';
+@use 'components/button1';
 @use 'components/card';
 @use 'components/header';
 @use 'components/heroblok';
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: var(--main-color);
+  background-color: var(--grey10)
+}
+
+span {
+  padding: 12px 14px;
+  background-color: var(--grey20);
+  border-radius: 8px;
+  color: var(--main-color);
 }
 
 li {
@@ -26,4 +39,8 @@ li {
 a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+h1 {
+  font-size: 68px;
 }
