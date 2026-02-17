@@ -1,0 +1,27 @@
+.sponsor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    gap: 20px;
+    padding: 40px 50px;
+    background-color: var(--grey10);
+    border: var(--border);
+}
+
+.sponsor_card{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.trusted{
+    position: absolute;
+    padding: 20px 34px;
+    background: var(--grey10);
+    color: var(--grey90);
+    border: var(--border);
+    border-radius: 100px;
+    right: 43%;
+    top: -16%;
+}

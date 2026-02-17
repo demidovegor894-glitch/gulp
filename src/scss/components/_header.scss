@@ -1,6 +1,7 @@
 header {
     .container {
-    background-color: #262626;
+    background-color: var(--grey10);
+    border: var(--border);
     display: flex;
     flex-direction: row;
     align-items: center;
