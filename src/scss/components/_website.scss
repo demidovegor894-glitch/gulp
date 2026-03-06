@@ -1,0 +1,53 @@
+.include_website {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px 80px;
+    background-color: var(--grey10);
+    border: var(--border);
+}
+
+.text_website {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    border: var(--border);
+    border-radius: 8px;
+    padding: 20px 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.info_account {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+}
+
+.text_account {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.btn_website {
+    padding: 18px 20px;
+    border-radius: 8px;
+    background-color: var(--grey15);
+    border: var(--border);
+}
+
+.title_website {
+    size: 2px;
+}
